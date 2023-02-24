@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulair.css">
+    <title>inscreiption</title>
+</head>
+<body>
+    <h1>FORMULAIRE</h1>
+    <div class="container">
+        <form action="envoi.php" method="POST">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Nom</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="nom" placeholder="votre nom">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Prenom</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="prenom" placeholder="votre prenom">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Age</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="lname" name="age" placeholder="votre age">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Classe</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="classe" placeholder="votre classe">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Sexe</label>
+                </div>
+                <div class="col-75">
+                <select id="country" name="sexe">
+                    <option value="Homme">Homme</option>
+                    <option value="Femme">Femme</option>
+                    <option value="Autre">Autre</option>
+                </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Telephone</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="lname" name="telephone" placeholder="votre numero de telephone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label >Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="email" placeholder="votre email ">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
