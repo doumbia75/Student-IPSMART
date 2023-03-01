@@ -32,7 +32,7 @@
 </head>
 <html>
 <body>
- <h1>Liste des utilisateurs</h1>
+ <h1>Liste des utilisateurs Enregistrer</h1>
  <table>
    <thead>
      <tr>
