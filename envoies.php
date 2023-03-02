@@ -32,6 +32,7 @@ try{
     $sth->bindParam(':telephone', $telephone);
     $sth->bindParam(':email', $email);
     $sth->execute();
+    
 
     // on renvoie l utilisateur vers la page de remerciement
     header("location:merci.html");
@@ -40,6 +41,3 @@ try{
       echo 'Impossible de traiter les données. Erreur : '.$e->getMessage();
   }
 ?>
-
-
-
